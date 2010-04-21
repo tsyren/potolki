@@ -43,7 +43,7 @@ a { text-decoration: none; }
 #content {
 	width: 100%;
 	padding-top: 33px;
-	min-height: 650px;
+	min-height: 579px;
 }
 #sidebar {
 	width: 258px;
@@ -69,6 +69,18 @@ a { text-decoration: none; }
 	font-weight: 500;
 }
 
+.menu, .content {
+	margin: 0 12px; padding: 25px
+}
+.info { 
+	margin: 0 12px; padding: 15px;
+	line-height: 150%;
+}
+
+.photos {
+	
+}
+
 .roundedcornr_box_526415 {
    background: #f8f4b0;
 }
@@ -91,4 +103,3 @@ a { text-decoration: none; }
    height: 12px;
    font-size: 1px;
 }
-.roundedcornr_content_526415 { margin: 0 12px; padding: 25px }
