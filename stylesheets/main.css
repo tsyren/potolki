@@ -1,7 +1,7 @@
 ﻿body {
 	background-color: #fffcc7;
 }
-
+a { text-decoration: none; }
 #itsunrise {
 	width: 1100px;
 	height: 100%;
@@ -49,9 +49,24 @@
 	width: 258px;
 	float: left;
 }
+#sidebar li {
+	margin-bottom: 10px;
+}
+
+#sidebar a{
+	color: #19180c;
+}
+#sidebar .selected  a{
+	color: #39371b;
+	font-weight: bold;
+}
 
 #yieldpart {
-	
+	color: #252525;
+	font-size: 14px;
+	font-family: Verdana, sans-serif;
+	line-height: 170%;
+	font-weight: 500;
 }
 
 .roundedcornr_box_526415 {
